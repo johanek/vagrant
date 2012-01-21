@@ -43,6 +43,7 @@ yum -y remove gcc make kernel-devel krb5-devel libselinux-devel libsepol-devel k
 chkconfig gpm off
 chkconfig autofs off
 chkconfig iscsid off
+chkconfig iscsi off
 
 #poweroff -h
 
